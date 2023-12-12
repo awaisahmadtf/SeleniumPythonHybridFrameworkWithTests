@@ -1,0 +1,124 @@
+{
+  "uid" : "5f0edb0dcae0891e",
+  "name" : "test_search_without_entering_any_product",
+  "fullName" : "tests.test_search.TestSearch#test_search_without_entering_any_product",
+  "historyId" : "44c83ec0fed6d3f7e0e98d8724767c9f",
+  "time" : {
+    "start" : 1700044062277,
+    "stop" : 1700044062841,
+    "duration" : 564
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = <method-wrapper '__eq__' of str object at 0x7fd3469dd530>('There is no product that matches the search criteria. abc')\n +    where <method-wrapper '__eq__' of str object at 0x7fd3469dd530> = 'There is no product that matches the search criteria.'.__eq__\n +      where 'There is no product that matches the search criteria.' = <bound method SearchPage.retrieve_no_product_message of <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>>()\n +        where <bound method SearchPage.retrieve_no_product_message of <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>> = <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>.retrieve_no_product_message",
+  "statusTrace" : "self = <tests.test_search.TestSearch object at 0x7fd346a67ee0>\n\n    def test_search_without_entering_any_product(self):\n        home_page = HomePage(self.driver)\n        search_page = home_page.search_for_a_product(\"\")\n        expected_text = \"There is no product that matches the search criteria. abc\" # intentionally Failing\n>       assert search_page.retrieve_no_product_message().__eq__(expected_text)\nE       AssertionError: assert False\nE        +  where False = <method-wrapper '__eq__' of str object at 0x7fd3469dd530>('There is no product that matches the search criteria. abc')\nE        +    where <method-wrapper '__eq__' of str object at 0x7fd3469dd530> = 'There is no product that matches the search criteria.'.__eq__\nE        +      where 'There is no product that matches the search criteria.' = <bound method SearchPage.retrieve_no_product_message of <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>>()\nE        +        where <bound method SearchPage.retrieve_no_product_message of <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>> = <pagesobject.Searchpage.SearchPage object at 0x7fd346ab9d50>.retrieve_no_product_message\n\ntests/test_search.py:22: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1700044062277,
+      "stop" : 1700044062277,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1700044056651,
+      "stop" : 1700044062277,
+      "duration" : 5626
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1700044062872,
+      "stop" : 1700044062925,
+      "duration" : 53
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "b451548861ad7d83",
+      "name" : "failed_test",
+      "source" : "b451548861ad7d83.png",
+      "type" : "image/png",
+      "size" : 99655
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  }, {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1700044062925,
+      "stop" : 1700044063940,
+      "duration" : 1015
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "awaisahmad-latitude-5490"
+  }, {
+    "name" : "thread",
+    "value" : "18975-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')" ]
+  },
+  "source" : "5f0edb0dcae0891e.json",
+  "parameterValues" : [ ]
+}

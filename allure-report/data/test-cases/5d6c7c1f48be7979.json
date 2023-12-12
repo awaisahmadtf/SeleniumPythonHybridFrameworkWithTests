@@ -1,0 +1,240 @@
+{
+  "uid" : "5d6c7c1f48be7979",
+  "name" : "test_create_account_with_mandatory_fields",
+  "fullName" : "tests.test_register.TestRegister#test_create_account_with_mandatory_fields",
+  "historyId" : "68a0218840ff11b4f6ef1e0e30a89f06",
+  "time" : {
+    "start" : 1700475239954,
+    "stop" : 1700475243009,
+    "duration" : 3055
+  },
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1700475235066,
+      "stop" : 1700475239953,
+      "duration" : 4887
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1700475239953,
+      "stop" : 1700475239953,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1700475243011,
+      "stop" : 1700475243949,
+      "duration" : 938
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1700475243010,
+      "stop" : 1700475243010,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_register"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRegister"
+  }, {
+    "name" : "host",
+    "value" : "awaisahmad-latitude-5490"
+  }, {
+    "name" : "thread",
+    "value" : "8767-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_register"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc6f83df579f5d55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700113786720,
+        "stop" : 1700113789701,
+        "duration" : 2981
+      }
+    }, {
+      "uid" : "b47ebafbe01de659",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700044010357,
+        "stop" : 1700044013292,
+        "duration" : 2935
+      }
+    }, {
+      "uid" : "e5221b0cdaff3adc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700029362887,
+        "stop" : 1700029366332,
+        "duration" : 3445
+      }
+    }, {
+      "uid" : "48fbb5b34b133516",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700029131270,
+        "stop" : 1700029134534,
+        "duration" : 3264
+      }
+    }, {
+      "uid" : "7e7af5cd278158a8",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id=\"input-firstname\"]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:507:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16",
+      "time" : {
+        "start" : 1700028867490,
+        "stop" : 1700028873069,
+        "duration" : 5579
+      }
+    }, {
+      "uid" : "90d1485c073dc9bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699967856674,
+        "stop" : 1699967860219,
+        "duration" : 3545
+      }
+    }, {
+      "uid" : "59adf0806a6ed45b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699967364760,
+        "stop" : 1699967368438,
+        "duration" : 3678
+      }
+    }, {
+      "uid" : "f6ef8cbaf1301426",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699966982346,
+        "stop" : 1699966985748,
+        "duration" : 3402
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 6,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "2ccf1d20f3b7bd20",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJobLocaMachine/28/allure/#testresult/2ccf1d20f3b7bd20",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700113786720,
+          "stop" : 1700113789701,
+          "duration" : 2981
+        }
+      }, {
+        "uid" : "5834787a35a0f9fa",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJobLocaMachine/27/allure/#testresult/5834787a35a0f9fa",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700044010357,
+          "stop" : 1700044013292,
+          "duration" : 2935
+        }
+      }, {
+        "uid" : "93599aa9fc63153",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/26/allure/#testresult/93599aa9fc63153",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700029362887,
+          "stop" : 1700029366332,
+          "duration" : 3445
+        }
+      }, {
+        "uid" : "e47a8264b5763eea",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/24/allure/#testresult/e47a8264b5763eea",
+        "status" : "broken",
+        "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: Unable to locate element: [id=\"input-firstname\"]; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception\nStacktrace:\nRemoteError@chrome://remote/content/shared/RemoteError.sys.mjs:8:8\nWebDriverError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:189:5\nNoSuchElementError@chrome://remote/content/shared/webdriver/Errors.sys.mjs:507:5\ndom.find/</<@chrome://remote/content/shared/DOM.sys.mjs:132:16",
+        "time" : {
+          "start" : 1700028867490,
+          "stop" : 1700028873069,
+          "duration" : 5579
+        }
+      }, {
+        "uid" : "57283e064bca5446",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/23/allure/#testresult/57283e064bca5446",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699967856674,
+          "stop" : 1699967860219,
+          "duration" : 3545
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')" ]
+  },
+  "source" : "5d6c7c1f48be7979.json",
+  "parameterValues" : [ ]
+}

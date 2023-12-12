@@ -1,0 +1,238 @@
+{
+  "uid" : "a2524d7eebc4fa9f",
+  "name" : "test_search_for_a_valid_product",
+  "fullName" : "tests.test_search.TestSearch#test_search_for_a_valid_product",
+  "historyId" : "2c72966b699741960d319673f8df6b67",
+  "time" : {
+    "start" : 1700475276845,
+    "stop" : 1700475277538,
+    "duration" : 693
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ {
+    "name" : "log_on_failure",
+    "time" : {
+      "start" : 1700475276844,
+      "stop" : 1700475276844,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown",
+    "time" : {
+      "start" : 1700475271543,
+      "stop" : 1700475276843,
+      "duration" : 5300
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "log_on_failure::0",
+    "time" : {
+      "start" : 1700475277538,
+      "stop" : 1700475277538,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "setup_and_teardown::0",
+    "time" : {
+      "start" : 1700475277538,
+      "stop" : 1700475278565,
+      "duration" : 1027
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_search"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "awaisahmad-latitude-5490"
+  }, {
+    "name" : "thread",
+    "value" : "8767-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "72af9de8e1e79deb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700113825413,
+        "stop" : 1700113826119,
+        "duration" : 706
+      }
+    }, {
+      "uid" : "3a8d80df9fccd891",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700044048478,
+        "stop" : 1700044049144,
+        "duration" : 666
+      }
+    }, {
+      "uid" : "3f98f77046ffd909",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700029401408,
+        "stop" : 1700029402306,
+        "duration" : 898
+      }
+    }, {
+      "uid" : "4a505f5ed4f67196",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700029168120,
+        "stop" : 1700029168830,
+        "duration" : 710
+      }
+    }, {
+      "uid" : "56ffd0e9ed80dc0a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1700028905831,
+        "stop" : 1700028906576,
+        "duration" : 745
+      }
+    }, {
+      "uid" : "456d182586c28746",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699967893740,
+        "stop" : 1699967894567,
+        "duration" : 827
+      }
+    }, {
+      "uid" : "debe67fa66aadfa6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699967405312,
+        "stop" : 1699967406196,
+        "duration" : 884
+      }
+    }, {
+      "uid" : "882c16ba23976633",
+      "status" : "passed",
+      "time" : {
+        "start" : 1699967019062,
+        "stop" : 1699967019760,
+        "duration" : 698
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 7,
+        "unknown" : 0,
+        "total" : 7
+      },
+      "items" : [ {
+        "uid" : "184ccbfe4c0ec64c",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJobLocaMachine/28/allure/#testresult/184ccbfe4c0ec64c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700113825413,
+          "stop" : 1700113826119,
+          "duration" : 706
+        }
+      }, {
+        "uid" : "7ff9665266e390c7",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJobLocaMachine/27/allure/#testresult/7ff9665266e390c7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700044048478,
+          "stop" : 1700044049144,
+          "duration" : 666
+        }
+      }, {
+        "uid" : "a1857862cb6c68e",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/26/allure/#testresult/a1857862cb6c68e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700029401408,
+          "stop" : 1700029402306,
+          "duration" : 898
+        }
+      }, {
+        "uid" : "66a497ce488490f1",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/24/allure/#testresult/66a497ce488490f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1700028905831,
+          "stop" : 1700028906576,
+          "duration" : 745
+        }
+      }, {
+        "uid" : "a332268cf8a797b",
+        "reportUrl" : "http://localhost:8080/job/FirstTestJob/23/allure/#testresult/a332268cf8a797b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1699967893740,
+          "stop" : 1699967894567,
+          "duration" : 827
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('setup_and_teardown', 'log_on_failure')" ]
+  },
+  "source" : "a2524d7eebc4fa9f.json",
+  "parameterValues" : [ ]
+}
