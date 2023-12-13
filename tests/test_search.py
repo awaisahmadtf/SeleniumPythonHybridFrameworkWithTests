@@ -18,5 +18,5 @@ class TestSearch(BaseTest):
     def test_search_without_entering_any_product(self):
         home_page = HomePage(self.driver)
         search_page = home_page.search_for_a_product("")
-        expected_text = "There is no product that matches the search criteria." # intentionally Failing
+        expected_text = "There is no product that matches the search criteria.abx" # intentionally Failing
         assert search_page.retrieve_no_product_message().__eq__(expected_text)
